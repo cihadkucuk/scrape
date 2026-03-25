@@ -3,6 +3,14 @@
   "timeout_ms": 30000,
   "slow_mo_ms": 150,
   "keep_browser_open": false,
+  "debug": {
+    "dump_candidates_dir": "debug"
+  },
+  "proxy": {
+    "server": "http://pr.oxylabs.io:7777",
+    "username": "customer-USERNAME-cc-US-sessid-123456",
+    "password": "PASSWORD"
+  },
   "login": {
     "username": "YOUR_USERNAME",
     "password": "YOUR_PASSWORD",
@@ -13,11 +21,11 @@
     "value": "xxx"
   },
   "selectors": {
-    "login_username": "input[name='email']",
-    "login_password": "input[name='password']",
-    "login_submit": "button[type='submit']",
-    "home_username": "input[name='username']",
-    "apply_button": "button:has-text('Apply')",
+    "login_username": "",
+    "login_password": "",
+    "login_submit": "",
+    "home_username": "",
+    "apply_button": "",
     "success_after_apply": ""
   }
 }
